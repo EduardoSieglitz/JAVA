@@ -1,4 +1,4 @@
-package logicadeprogramaçao;
+package LogicadeProgramaçao;
 import java.util.Scanner;
 public class ConversaoTemperatura {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package logicadeprogramaçao;
+package LogicadeProgramaçao;
 import java.util.Scanner;
 public class MediaAluno {
     public static void main(String[] args) {
