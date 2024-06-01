@@ -1,9 +1,11 @@
-package ConexaoBanco;
+package ConexaoBanco.View;
+import ConexaoBanco.Model.UsuarioDados;
+
 import java.util.Scanner;
-public class Cadastro {
+public class Login {
     public static void main(String[] args) {
         Scanner S = new Scanner(System.in);
-        FunctionCadastro Function = new FunctionCadastro();
+        UsuarioDados Function = new UsuarioDados();
         System.out.print("Digite seu Nome: ");
         Function.setNome(S.next());
         System.out.print("Digite seu Sobrenome: ");

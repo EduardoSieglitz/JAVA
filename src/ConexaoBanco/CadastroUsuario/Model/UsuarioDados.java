@@ -1,6 +1,6 @@
-package ConexaoBanco;
+package ConexaoBanco.CadastroUsuario.Model;
 
-public class FunctionCadastro {
+public class UsuarioDados {
     private String Nome, Sobrenome, Email, Senha;
 
     public String getNome() {

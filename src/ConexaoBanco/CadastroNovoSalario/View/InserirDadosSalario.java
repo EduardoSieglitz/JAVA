@@ -1,5 +1,6 @@
-package Atividade02.Conexao.View;
-import Atividade02.Conexao.Model.DadosSalario;
+package ConexaoBanco.CadastroNovoSalario.View;
+
+import ConexaoBanco.CadastroNovoSalario.Model.DadosSalario;
 
 import java.util.Scanner;
 public class InserirDadosSalario {

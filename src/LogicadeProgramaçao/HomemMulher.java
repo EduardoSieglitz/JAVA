@@ -1,3 +1,4 @@
+package LogicadeProgramaçao;
 import java.util.Scanner;
 
 public class HomemMulher {

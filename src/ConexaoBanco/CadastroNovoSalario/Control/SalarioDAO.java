@@ -1,7 +1,8 @@
-package Atividade02.Conexao.Control;
+package ConexaoBanco.CadastroNovoSalario.Control;
 
-import Atividade02.Conexao.ConexaoBanco;
-import Atividade02.Conexao.Model.DadosSalario;
+import ConexaoBanco.CadastroNovoSalario.Conexao;
+import ConexaoBanco.CadastroNovoSalario.Model.DadosSalario;
+
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -10,7 +11,7 @@ import java.sql.PreparedStatement;
 public class SalarioDAO {
     private Connection Conectar;
     public SalarioDAO(){
-        Conectar = new ConexaoBanco().getConectar();
+        Conectar = new Conexao().getConectar();
     }
     public void CadastroDados(DadosSalario dados){
         try{

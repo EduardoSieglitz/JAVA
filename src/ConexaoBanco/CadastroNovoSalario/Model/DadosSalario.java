@@ -1,6 +1,6 @@
-package Atividade02.Conexao.Model;
+package ConexaoBanco.CadastroNovoSalario.Model;
 
-import Atividade02.Conexao.Control.SalarioDAO;
+import ConexaoBanco.CadastroNovoSalario.Control.SalarioDAO;
 
 public class DadosSalario {
     private String Nome, setor;
