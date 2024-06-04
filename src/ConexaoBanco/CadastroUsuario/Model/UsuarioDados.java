@@ -1,4 +1,5 @@
 package ConexaoBanco.CadastroUsuario.Model;
+import ConexaoBanco.CadastroUsuario.Control.UsuarioDAO;
 
 public class UsuarioDados {
     private String Nome, Sobrenome, Email, Senha;
@@ -35,4 +36,8 @@ public class UsuarioDados {
         Senha = senha;
     }
 
+    public static void EnviarCadastro(UsuarioDados dados){
+        UsuarioDAO Enviar = new UsuarioDAO();
+        Enviar.CadastroDados(dados);
+    }
 }

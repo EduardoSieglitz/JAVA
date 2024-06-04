@@ -1,5 +1,5 @@
-package ConexaoBanco.View;
-import ConexaoBanco.Model.UsuarioDados;
+package ConexaoBanco.CadastroUsuario.View;
+import ConexaoBanco.CadastroUsuario.Model.UsuarioDados;
 
 import java.util.Scanner;
 public class Login {
@@ -17,5 +17,6 @@ public class Login {
         System.out.println("Verificando informações");
         System.out.println("Nome: " + Function.getNome() + "\nSobrenome: " + Function.getSobrenome() +
                 "\nEmail: " + Function.getEmail() + "\nSenha: " + Function.getSenha());
+        UsuarioDados.EnviarCadastro(Function);
     }
 }
